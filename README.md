@@ -1,3 +1,4 @@
+> docker-compose up -d
 
 https://wodby.com/docs/1.0/stacks/drupal/local/
 https://github.com/drupal-composer/drupal-project
