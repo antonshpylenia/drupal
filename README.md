@@ -1,5 +1,22 @@
-> docker-compose up -d
+```
+docker-compose up -d
+```
+
 > rename .env.example to .env
+
+Add entry in /etc/hosts
+
+``` 
+127.0.0.1 drupal.docker.localhost
+```
+
+To make database persistent (even after docker-compose down), uncomment volume in db section
+```
+mariadb:
+volumes:
+      - db:/var/lib/mysql # Use bind mount on docker volume
+#      - ./db:/var/lib/mysql # or use local path
+```
 
 https://wodby.com/docs/1.0/stacks/drupal/local/
 https://github.com/drupal-composer/drupal-project
