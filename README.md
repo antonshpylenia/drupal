@@ -19,6 +19,7 @@ volumes:
 ```
 
 https://wodby.com/docs/1.0/stacks/drupal/local/
+
 https://github.com/drupal-composer/drupal-project
 
 # Composer template for Drupal projects
